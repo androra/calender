@@ -15,11 +15,32 @@
         android:text="date"
         android:textSize="25dp"/>
 
+    <TextView
+        android:id="@+id/settime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textSize="25dp"/>
+
     <Button
         android:layout_marginTop="40dp"
         android:id="@+id/calender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="calender"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"/>
 
 </LinearLayout>
